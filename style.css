@@ -10,13 +10,18 @@ body{
 nav{
     position: fixed;
     top: 0;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px !important;
 }
 #image{
     height: 90hv;
     width: 100%;
     position: relative;
-
 }
+#navbrand{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
 #text{
     position: absolute;
     top: 0;
