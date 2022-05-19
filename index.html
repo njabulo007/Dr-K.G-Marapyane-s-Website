@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <!--font-family: 'Great Vibes', cursive;-->
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!--font-family: 'Arima Madurai', cursive;
+        font-family: 'Playfair Display', serif;-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Bootstrap5/css/bootstrap.min.css">
+    <script async src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="bootstrap5/js/bootstrap.min.js"></script>
+    <title>Dr K.G Ramapyane</title>
+</head>
+<body id="body">
+    <nav class="navbar bg-primary navbar-expand-lg navbar-light ">
+        <div class="navbar-brand m-3">
+           <a class="text-decoration-none" href="#">
+            <h1 class="text-white">
+              Dr K.G Marapyane
+            </h1>
+           </a> 
+        </div>
+         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto m-3">
+              <li class="nav-item"><a class="nav-link text-white"  data-bs-toggle="modal" data-bs-target="#bookModal">Book Appointment </a> </li>
+              <li class="nav-item "><a class="nav-link text-white" href="#section2">Prices</a> </li>
+              <!-- Button trigger modal -->
+
+              <li class="nav-item "><a class="nav-link text-white" href="#directions">Directions</a> </li>
+              <li class="nav-item "><a class="nav-link text-white" href="#contacts">Contacts</a></li>
+              <li class="nav-item bg-success text-white"><a class="nav-link text-white" href="https://sacoronavirus.co.za/" target="_blank">SA Covid 19</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <!--MODAL-->
+
+<div class="modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bookModalLabel">Book Your Appointment</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Name</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input class="form-control"  type="date">
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!---->
+    <section id="landing">
+        <div id="image" class="">
+            <img src="images/image2.jpg" alt="" srcset="">
+            <div id="text">
+                <h2 id="medical_h2">MEDICAL PRACTITIONER</h2>
+                <p id="pr_number">B.Sc (Unin) M.B.Ch.B (Medunsa) <br> Pr No: 0172650</p>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="container">
+            <div id="box">
+                <h2 id="medical_h2" class="text-center mt-5"><strong>Our Price List</strong> </h2>
+                <table class="table table-bordered table-success table-responsive">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">#</th>
+                        <th scope="col">Prices</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Adult Reviewe</td>
+                        <td>R470,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Child Consultation</td>
+                        <td>R420,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td >Reviewe</td>
+                        <td >R300,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>HIV Test</td>
+                        <td>R250,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Nuristate</td>
+                        <td>R140,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td >Depo</td>
+                        <td >R150,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>Drip</td>
+                        <td>R300,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>Pregnancy Test</td>
+                        <td>R125,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td >Nerbulization</td>
+                        <td >R120,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>Abscess</td>
+                        <td>R410,00 + R100</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>Stitch</td>
+                        <td>R470,00 + R200</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td >Duromine 30mg</td>
+                        <td >R400,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">13</th>
+                        <td>Duromine 15mg</td>
+                        <td>R470,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">14</th>
+                        <td>Child Consultation</td>
+                        <td>R350,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">15</th>
+                        <td >Bco Injection</td>
+                        <td >R150,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">16</th>
+                        <td>Rapid Test HIV</td>
+                        <td>R150,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">17</th>
+                        <td>Papsmear</td>
+                        <td>R400,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">18</th>
+                        <td >BP Only</td>
+                        <td >R100,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">19</th>
+                        <td>Remove Stitch</td>
+                        <td>R300,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">20</th>
+                        <td>Evra Patch</td>
+                        <td>R200,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">21</th>
+                        <td >Sonar only</td>
+                        <td >R400,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">22</th>
+                        <td>Remove Implant</td>
+                        <td>R470,00</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">23</th>
+                        <td>Consultation</td>
+                        <td>R680,00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+    <section id="directions">
+        <div class="container">
+            <div id="map">
+                <iframe
+            width="100%"
+            height="100%"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBIweOHvIo29SLr4ZHQAWoM20OkdSior2g&q=-26.01284029440871, 28.190210876870218">
+                </iframe>
+            </div>
+            </div>
+
+
+    </section id="contacts">
+    <div class="container">
+    <footer class="footer">
+          <h2 id="medical_h2" class="text-center mt-5">Contact Us</h2>
+            <div class="row m-3">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <h5>Surgery</h5>
+                    <p>2260 Ivory Park 2 <br> Extension 5 <br> <strong>Tembisa</strong> <br> TEL/FAX: 011-925-2084</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div>
+                        <h5>Postal Address</h5>
+                        <p>P.O.BOX 1009 <br> <strong>GARRSFONTEIN</strong> <br> 0042 <br> TEL/FAX: 011-925-2084</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                  <div >
+
+                      <h5>Business Hours</h5>
+                      <p>Monday:    10am-5pm<br>Monday:    10am-5pm<br>Tuesday:    10am-5pm<br>Wednesday:    10am-5pm <br>Thursday:    10am-5pm <br>Friday:    10am-5pm <br>Saturday:    10am-2pm <br>Sunday:    Closed</p>
+                  </div>
+              </div>
+            </div>
+    </div>
+
+    </footer>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIweOHvIo29SLr4ZHQAWoM20OkdSior2g&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <section>
+
+    </section>
+
+</body>
+</html>
