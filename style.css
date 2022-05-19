@@ -70,6 +70,6 @@ li > a:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #covid_link{
-    background-color: green !important;
-    border-radius: 20px !important;
+    background-color: rgba(0, 128, 0, 0.753) !important;
+    border-radius: 16px !important;
 }
