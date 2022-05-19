@@ -24,6 +24,7 @@ nav{
 }
 footer{
     background-color: rgba(128, 128, 128, 0.192);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 img{
@@ -44,6 +45,7 @@ h1{
     width: 100%;
     /* The width is the width of the web page */
     border: 1px solid rgb(99, 99, 99);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 #medical_h2{
     font-family: 'Playfair Display', serif;
@@ -58,8 +60,16 @@ li > a{
     border-radius: 16px;
     margin: 5px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 li > a:hover{
     background-color: rgb(51, 63, 228);
     cursor: pointer;
+}
+#box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#covid_link{
+    background-color: green !important;
+    border-radius: 20px !important;
 }
